@@ -50,6 +50,16 @@ export const Card = styled.div`
 export const TableContainer = styled.section`
   margin-top: 64px;
 
+  a {
+    text-decoration: none;
+    color: #666;
+    transition: color 0.2s;
+
+    &:hover {
+      color: #3d3d3d;
+    }
+  }
+
   table {
     width: 100%;
     border-spacing: 0 8px;
